@@ -1,0 +1,160 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+</style>
+</head>
+<body>
+
+<div class="scrollmenu">
+  <a href="#home">Cover</a>
+  <a href="#news">Bab I</a>
+  <a href="#contact">Bab II</a>
+  <a href="#about">Bab III</a>
+  <a href="#support">Bab IV</a>
+  <a href="#blog">Daftar Pustaka</a>
+  
+</div>
+
+</body>
+</html>
+*{
+   box-sizing: border-box;
+}
+
+
+
+
+body{
+   margin: 0;
+}
+
+
+
+
+.header{
+   color: #D6E0D5;
+   background-color: #D6E0D5;
+   padding: 25px;
+   text-align: center;
+}
+
+
+
+
+.topnav {
+   overflow: hidden;
+   background-color: #EBCFC4;
+}
+
+
+
+
+.topnav a {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   float: left;
+   display: block;
+   color: #152238;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+
+
+
+.topnav a:hover {
+   background-color: #3a4c40;
+   color: #D8F1F6;
+}
+
+
+
+
+.dropdown {
+   float: left;
+   overflow: hidden;
+   font-size: 17px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+.dropdown .dropbtn {
+   font-size: 17px;
+   border: none;
+   outline: none;
+   color: #152238;
+   padding: 14px 16px;
+   background-color: inherit;
+   font-family: inherit;
+   margin: 0;
+}
+
+
+
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   color: #152238;
+   background-color: #D3DFCB;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+}
+
+
+
+
+.dropdown-content a {
+   float: none;
+   color: 152238;
+   padding: 14px 16px;
+   text-decoration: none;
+   display: block;
+   text-align: left;
+}
+
+
+
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 17px;
+   background-color: #FAEACB;
+   color: #767676;
+}
+
+
+
+
+.dropdown-content a:hover {
+   background-color: #B9CFAB;
+   color: #767676;
+}
+
+
+
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
